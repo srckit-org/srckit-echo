@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 text-gray-900">
-      <AppBar position="sticky" elevation={0} className="border-b border-gray-200" style={{ background: '#f8fafc', color: '#1e293b' }}>
+<AppBar position="sticky" elevation={0} className="border-b border-gray-200" style={{ background: '#f8fafc', color: '#1e293b' }}>
         <Toolbar className="min-h-12 px-2 md:px-4">
           <Box className="flex-1 flex items-center justify-center md:justify-start gap-1">
           <Typography variant="h6" sx={{ fontWeight: 800, letterSpacing: "-0.5px", color: "#111827" }} className="text-lg md:text-xl" style={{ color: '#1e293b' }}>Echo Service</Typography>
